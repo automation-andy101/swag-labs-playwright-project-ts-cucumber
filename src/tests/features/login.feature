@@ -7,6 +7,7 @@ Feature: Login
 
     Scenario: Login with valid credentials
         When I enter valid login credentials
+        And submit the login form
         Then I should see the home page
 
 
